@@ -42,3 +42,23 @@ body {
 .navbar-dark {
     background-color: #512DA8;
 }
+
+.newBadget {
+    margin-left: 5px;
+}
+
+.radioButton {
+    margin-right: 12px;
+}
+
+@media (min-width: 769px) {
+    .dateTimebtn {
+        max-width: 150px
+    }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+    .dateTimebtn {
+        max-width: 100px
+    }
+}

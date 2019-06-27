@@ -46,7 +46,7 @@
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
-          <div class="col-6">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6">
             <h1>Ristorante con Fusion</h1>
             <p>
               We take inspiration from the World's best cuisines, and create a
@@ -54,10 +54,11 @@
               your culinary senses!
             </p>
           </div>
-          <div class="col-6 align-self-center">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 center-block">
                 <img src="img/logo.png" class="img-fluid"/>
-                    <button type="submit" class="btn btn-sm">
-Reserve table                    </button>
+                    <button type="button" class="btn btn-sm btn-warning center-block col-12 col-md-3 col-lg-3 col-xl-3">
+                         Reserve table  
+                    </button>
                 </div>
         </div>
       </div>
@@ -65,15 +66,15 @@ Reserve table                    </button>
 
     <div class="container">
     <div class="row row-content align-items-center">
-      <div class="col-12 col-sm-4 col-md-3">
-            <h3>Our Lipsmacking Culinary Creations</h3>
-        </div>
-        <div class="col col-sm col-md">
+            <div class="col-12 col-sm-4 col-md-3 order-md-2 order-lg-2">
+                    <h3>Our Lipsmacking Culinary Creations</h3>
+                </div>
+        <div class="col col-sm col-md order-md-1 order-lg-1">
                 <div class="media">
                         <img class="d-flex mr-3 img-thumbnail align-self-center"
                                 src="img/uthappizza.png" alt="Uthappizza">
                         <div class="media-body">
-                            <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                            <h2 class="mt-0">Uthappizza<span class="badge badge-danger newBadget">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
                             <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                                 Italian pizza, topped with Cerignola olives, ripe vine
                                 cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -82,6 +83,7 @@ Reserve table                    </button>
                     </div>
     
         </div>  
+   
       </div>
 
 
@@ -90,23 +92,30 @@ Reserve table                    </button>
           <h3>This Month's Promotions</h3>
         </div>
         <div class="col col-sm col-md">
-          <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
-          <p>
+                <div class="media">
+                       
+                        <div class="media-body">
+          <h2>Weekend Grand Buffet<span class="badge badge-danger newBadget">NEW</span></h2>
+          <p class="d-none d-sm-block">
             Featuring mouthwatering combinations with a choice of five different
             salads, six enticing appetizers, six main entrees and five choicest
             desserts. Free flowing bubbly and soft drinks. All for just $19.99
             per person
           </p>
         </div>
+        <img class="d-flex mr-3 img-thumbnail align-self-center"
+        src="img/buffet.png" alt="Uthappizza">
+    </div>
+</div>
       </div>
 
       <div
         class="row col col-sm order-sm-first col-md row-content align-items-center"
       >
-        <div class="col-12 col-sm-4 col-md-3">
-          <h3>Meet our Culinary Specialists</h3>
-        </div>
-        <div class="col col-sm col-md">
+      <div class="col-12 col-sm-4 col-md-3 order-md-2 order-lg-2">
+            <h3>Meet our Culinary Specialists</h3>
+          </div>
+        <div class="col col-sm col-md order-md-1 order-lg-1">
                 <div class="media">
                         <img class="d-flex mr-3 img-thumbnail align-self-center"
                                 src="img/alberto.png" alt="Alberto Somayya">
@@ -121,7 +130,72 @@ Reserve table                    </button>
                         </div>
                     </div>
         </div>
+       
       </div>
+      <div class="row row-content align-items-center">
+      <div class="col-12 col-md-8 col-lg-8 col-xl-8 offset-md-2 offset-lg-2 offset-xl-2">
+            <div class="card">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                <div class="card-body">
+                        <div class="form-group row ">
+                                      <p class="col-md-2">Number of Guests</p>
+                                            <div class="offset-1 custom-control custom-radio radioButton">
+                                              <input type="radio" class="custom-control-input" checked="" required="">
+                                              <label class="custom-control-label" >1</label>
+                                            </div>
+                                            <div class="custom-control custom-radio radioButton">
+                                              <input type="radio" class="custom-control-input" required="">
+                                              <label class="custom-control-label" >2</label>
+                                            </div>
+                                            <div class="custom-control custom-radio radioButton">
+                                              <input type="radio" class="custom-control-input" required="">
+                                              <label class="custom-control-label">3</label>
+                                            </div>
+                                            <div class="custom-control custom-radio radioButton">
+                                                    <input type="radio" class="custom-control-input" required="">
+                                                    <label class="custom-control-label">4</label>
+                                                  </div>
+                                                  <div class="custom-control custom-radio radioButton">
+                                                        <input type="radio" class="custom-control-input" required="">
+                                                        <label class="custom-control-label">5</label>
+                                                      </div>
+                                                      <div class="offset-1 offset-md-0 offset-lg-0 offset-xl-0 custom-control custom-radio">
+                                                            <input type="radio" class="custom-control-input" required="">
+                                                            <label class="custom-control-label">6</label>
+                                                          </div>
+                                                    </div>
+                                                        <div class="form-group row">
+                                                                <label for="date" class="col-md-2 col-form-label"
+                                                                  >Date and Time</label
+                                                                >
+                                                                <div class="offset-1 dateTimebtn">
+                                                                  <input
+                                                                    type="text"
+                                                                    class="form-control"
+                                                                    id="date"
+                                                                    name="date"
+                                                                    placeholder="Date"
+                                                                  />
+                                                                </div>
+                                                                <div class="offset-1 dateTimebtn">
+                                                                        <input
+                                                                          type="text"
+                                                                          class="form-control"
+                                                                          id="time"
+                                                                          name="time"
+                                                                          placeholder="Time"
+                                                                        />
+                                                                      </div>
+                                                              </div>
+                                                              <div class="form-group row">                                                                  
+                                                                    <button type="button" class="offset-1 offset-md-3 offset-lg-3 btn btn-sm btn-primary center-block">
+                                                                            Reserve  
+                                                                       </button>
+                                                              </div>
+                              </div>
+                </div>
+            </div>
+        </div>
 </div>
 
     <footer>
