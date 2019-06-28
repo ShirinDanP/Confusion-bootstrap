@@ -47,10 +47,6 @@ body {
     margin-left: 5px;
 }
 
-.radioButton {
-    margin-right: 12px;
-}
-
 @media (min-width: 769px) {
     .dateTimebtn {
         max-width: 150px
@@ -60,5 +56,30 @@ body {
 @media (max-width: 768px) and (min-width: 600px) {
     .dateTimebtn {
         max-width: 100px
+    }
+}
+
+@media (max-width: 768px) {
+    .radioButton {
+        display: block;
+        width: 100%;
+    }
+}
+
+.dateInput {
+    margin: 0;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .reserveButton {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .reserveButton {
+        margin: 0;
+        margin-left: 15px;
     }
 }
