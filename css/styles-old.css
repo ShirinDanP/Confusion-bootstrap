@@ -1,0 +1,132 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #d1c4e9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #9575cd;
+    color: floralwhite;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+}
+
+.newBadget {
+    margin-left: 5px;
+}
+
+@media (min-width: 769px) {
+    .dateTimebtn {
+        max-width: 150px
+    }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+    .dateTimebtn {
+        max-width: 100px
+    }
+}
+
+@media (max-width: 768px) {
+    .radioButton {
+        display: block;
+        width: 100%;
+    }
+}
+
+.dateInput {
+    margin: 0;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .cancelButton {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cancelButton {
+        margin: 0;
+        margin-left: 15px;
+    }
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+    color: black
+}
+
+.reserveButton {
+    margin-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .buttonGroup {
+        margin-left: 5px;
+    }
+}
+
+.smokingGroup {
+    padding-left: 15px;
+}
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
