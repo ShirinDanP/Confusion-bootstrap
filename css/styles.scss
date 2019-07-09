@@ -72,3 +72,45 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+
+.modal-header {
+  background-color: $background-dark;
+}
+.modal-header {
+  button {
+    color: $lt-gray;
+  }
+}
+
+.modal-title {
+  color: $lt-gray;
+}
+.modal-body {
+  background-color: $background-pale;
+}
+
+#bookingModal {
+  p {
+    color: black;
+  }
+  .radioButton {
+    color: black;
+  }
+}
+
+#date {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .cancelButton {
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cancelButton {
+    margin: 0;
+    margin-left: 15px;
+  }
+}

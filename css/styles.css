@@ -52,3 +52,33 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512da8; }
+
+.modal-header button {
+  color: #ddd; }
+
+.modal-title {
+  color: #ddd; }
+
+.modal-body {
+  background-color: #d1c4e9; }
+
+#bookingModal p {
+  color: black; }
+
+#bookingModal .radioButton {
+  color: black; }
+
+#date {
+  color: black; }
+
+@media (min-width: 768px) {
+  .cancelButton {
+    margin-left: 130px; } }
+
+@media (max-width: 767px) {
+  .cancelButton {
+    margin: 0;
+    margin-left: 15px; } }

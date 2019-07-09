@@ -25,3 +25,11 @@ $("#carouselButton").click(function() {
       .addClass("fa-pause");
   }
 });
+
+function openReserveTableModal() {
+  $("#bookingModal").modal();
+}
+
+function openLoginModal() {
+  $("#loginModal").modal();
+}

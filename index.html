@@ -8,12 +8,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Bootstrap CSS -->
-        <!-- build:css css/main.css -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-        <link href="css/styles.css" rel="stylesheet">
-        <!-- endbuild -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
     <title>Ristorante Con Fusion</title>
 </head>
 
@@ -44,8 +44,8 @@
             </ul>
         </ul>
         <span class="navbar-text">
-            <a data-toggle="modal" data-target="#loginModal">
-                <span class="fa fa-sign-in"></span> Login</a>
+            <button onclick="openLoginModal()">
+                <span class="fa fa-sign-in"></span> Login</button>
         </span>
     </nav>
     <div id="loginModal" class="modal fade" role="dialog">
@@ -104,8 +104,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6 center-block">
                     <img src="img/logo.png" class="img-fluid" />
-                    <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal"
-                        data-target="#bookingModal">Reserve Table</a>
+                    <button id="#reserveTableBtn" onclick="openReserveTableModal()" class="btn btn-block nav-link btn-warning">Reserve Table</button>
                 </div>
                 <div id="bookingModal" class="modal fade" role="dialog">
                     <div class="modal-dialog modal-lg" role="content">
@@ -168,10 +167,10 @@
                                     </div>
 
                                     <div class="form-group row">
-                                        <label for="date" class="col-md-2 col-form-label">
+                                        <label id="date" for="date" class="col-md-2 col-form-label">
                                             Date and Time
                                         </label>
-                                        <div class="dateInput offset-md-1 offset-lg-1 offset-xl-1 dateTimebtn">
+                                        <div class="dateInput dateTimebtn">
                                             <input type="text" class="form-control" id="date" name="date"
                                                 placeholder="Date" />
                                         </div>
@@ -338,13 +337,13 @@
                                     class="fa fa-google-plus"></i></a>
                             <a class="btn btn-social-icon btn-facebook"
                                 href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
-                                        class="fa fa-linkedin"></i></a>
-                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                                        class="fa fa-twitter"></i></a>
-                                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                                        class="fa fa-youtube"></i></a>
-                                <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                    class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                    class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                         </div>
                     </div>
                 </div>
@@ -357,12 +356,12 @@
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-     <!-- build:js js/main.js -->
-     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-     <script src="js/scripts.js"></script>
-     <!-- endbuild -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
